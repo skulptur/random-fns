@@ -1,40 +1,21 @@
-Tagline of up to 20 words here
-
 ## Motivation
 
-Single paragraph about why this library exists
+All your random needs in one place.
 
 ## Get started
 
 Install
 
 ```bash
-npm install --save library-name-fns
+npm install --save random-fns
 # or
-yarn add library-name-fns
+yarn add random-fns
 ```
 
 Use
 
 ```typescript
-import { noop } from 'library-name-fns'
+import { random } from 'random-fns'
 
-console.log(noop()) // undefined
-```
-
-[Examples](https://github.com/skulptur/library-name-fns/tree/master/example)
-
-## API
-
-- Functions that can be pure, are pure.
-- The argument order is optimized for partial application.
-
-Exports:
-
-### noop
-
-`() => void`
-
-```typescript
-const nothing = noop() // undefined
+console.log(random()) // equivalent to Math.random
 ```
