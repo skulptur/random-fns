@@ -1,13 +1,17 @@
 {
-  "name": "library-name-fns",
+  "name": "random-fns",
   "version": "0.1.0",
   "author": "skulptur",
   "license": "MIT",
-  "module": "dist/library-name-fns.esm.js",
+  "module": "dist/random-fns.esm.js",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "keywords": [
-    "functional"
+    "functional",
+    "random",
+    "noise",
+    "probability",
+    "chance"
   ],
   "files": [
     "dist",
@@ -44,11 +48,11 @@
   },
   "size-limit": [
     {
-      "path": "dist/library-name-fns.cjs.production.min.js",
+      "path": "dist/random-fns.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/library-name-fns.esm.js",
+      "path": "dist/random-fns.esm.js",
       "limit": "10 KB"
     }
   ],
