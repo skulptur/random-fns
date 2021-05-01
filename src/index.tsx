@@ -1,1 +1,1 @@
-export { noop } from './lib/noop'
+export { random } from './lib/random'
