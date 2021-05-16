@@ -1,3 +1,8 @@
+export { createNoise2d } from './lib/createNoise2d'
+export { createNoise3d } from './lib/createNoise3d'
+export { createNoise4d } from './lib/createNoise4d'
+export { diffuse } from './lib/diffuse'
+export { gaussian } from './lib/gaussian'
 export { random } from './lib/random'
 export { randomBoolean } from './lib/randomBoolean'
 export { randomInteger } from './lib/randomInteger'
